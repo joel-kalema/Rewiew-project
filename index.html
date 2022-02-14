@@ -1,0 +1,94 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Fork Me! FCC: Test Suite Template</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+
+    <div class="main-page">
+
+      <div class="title">
+        <h1>Welcome to Microverse Remote Courses</h1>
+        <p class="description"> Thank you for taking the time to help us improve the platform</p>
+      </div>
+
+
+      <div class="forms">
+        <form id="survey-form">
+          <div class="form-group">
+            <label id="name-label" for="name">Name</label>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              class="form-control"
+              placeholder="Enter your name"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label id="email-label" for="email">Email</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              class="form-control"
+              placeholder="Enter your Email"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label id="number-label" for="number"
+              >Age<span class="clue">(optional)</span></label
+            >
+            <input
+              type="number"
+              name="age"
+              id="number"
+              min="10"
+              max="99"
+              class="form-control"
+              placeholder="Age"
+            />
+          </div>
+          <div>
+            <div>
+                <p>
+                    Which Continent are from ?
+                </p>
+                <select id="dropdown" name="role" class="form-control" required>
+                    <option disabled selected value>Select current your Current Location</option>
+                    <option value="student">Africa</option>
+                    <option value="job">Asia</option>
+                    <option value="learner">Europe</option>
+                    <option value="preferNo">India</option>
+                    <option value="other">Other</option>
+                </select>
+
+            </div>
+            <div>
+              <form method="post"action="traitement.php">
+                <p>
+                Would you recommend Microverse to a friend? <br />
+                <input type="checkbox" name="frites" id="frites" /> <label
+                for="frites">Frites</label><br />
+                <input type="checkbox" name="steak" id="steak" /> <label
+                for="steak">Steak haché</label><br />
+                <input type="checkbox" name="epinards" id="epinards" />
+                <label for="epinards">Epinards</label><br />
+                <input type="checkbox" name="huitres" id="huitres" /> <label
+                for="huitres">Huitres</label>
+                </p>
+            </form>
+            </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <script  src="js/index.js"></script>
+  </body>
+</html>
