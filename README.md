@@ -11,7 +11,7 @@
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://joel-kalema.github.io/Rewiew-project/)
 
 ## Getting Started
 
@@ -20,7 +20,7 @@
 
 To get a local copy up and running follow these simple example steps.
 
-## Authors
+## Author
 
 👤 **Author**
 
